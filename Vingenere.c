@@ -5,7 +5,8 @@
 
 char caesar(char token, int key);
 
-int main(int argc, string argv[]) {
+int main(int argc, string argv[]) 
+{
 
     // Variable declarations
     bool keySuccessful = false;
