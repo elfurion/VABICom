@@ -88,13 +88,14 @@ int main(int argc, string argv[])
     printf("\n");
     return 0;
 }
-
+//Коммент внизу не дуже доречний, схоже на копипаст.
 /*
     This function applies a case-sensitive caeser cipher for a single
     character using the supplied key.
     Please note that it provides no input checking!
     The caller is responsible for this task.
 */
+//Чому caesar?
 char caesar(char token, int key)
 {
     if(islower(token))
@@ -106,3 +107,6 @@ char caesar(char token, int key)
         return ((((token - 65)  +key)%26)+65);
     }
 }
+
+//В бiльшостi код ОК, але деякi коментарi мають незрозумiлу природу и не дуже ясно що це таке.
+
